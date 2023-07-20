@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
 
@@ -23,7 +22,7 @@ const Hero = () => {
         <div className='absolute xs:bottom-10 w-full flex justify-center items-center'>
           <a href="#about">
             <div className=' w-[30px]  h-[50px] rounded-3xl border-4 border-[#FFE5B4] flex justify-center items-start p-1'>
-              <motion.dev //used to crerate the framer motion
+              <motion.animate //used to crerate the framer motion
               animate={{
                 y:[0,24,0]
               }}

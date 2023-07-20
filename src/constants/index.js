@@ -24,7 +24,6 @@ import {
     tripguide,
     threejs,
   } from "../assets";
-  import java from '../assets/tech/java.png'
   import bootstrap from '../assets/tech/bootstrap.png'
   
   export const navLinks = [
@@ -64,7 +63,7 @@ import {
   const technologies = [
     {
       name: "JAVA",
-      icon: java,
+      icon: figma,
     },
     {
       name: "HTML 5",
